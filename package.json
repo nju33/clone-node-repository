@@ -1,0 +1,20 @@
+{
+  "name": "clone-node-repository",
+  "description": "A little easier for me",
+  "version": "0.0.0",
+  "repository": "nju33/clone-node-repogitory",
+  "author": "nju33 <nju33.ki@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "clone-node-repository": "./index.js",
+    "cnr": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "execa": "^0.6.0",
+    "has-yarn": "^1.0.0",
+    "listr": "^0.10.0",
+    "meow": "^3.7.0",
+    "nodegit": "^0.17.0"
+  }
+}
